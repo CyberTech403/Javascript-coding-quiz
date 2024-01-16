@@ -7,3 +7,6 @@ Upon choosing an answer, the following question emerges; incorrect responses lea
 The quiz concludes upon answering all questions or when the timer reaches zero. At the end, the user's score is presented, and they have the option to save initials and score information.
 
 ## Page Preview 
+
+<p align="center">
+<img src="https://github.com/CyberTech403/Simple-coding-quiz/blob/main/assets/Screenshot/gif-screenshot.gif" width = "50%" >
