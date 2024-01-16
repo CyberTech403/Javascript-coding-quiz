@@ -9,4 +9,4 @@ The quiz concludes upon answering all questions or when the timer reaches zero. 
 ## Page Preview 
 
 <p align="center">
-<img src="https://github.com/CyberTech403/Simple-coding-quiz/blob/main/assets/Screenshot/gif-screenshot.gif" width = "50%" >
+<img src="https://github.com/CyberTech403/Simple-coding-quiz/blob/main/assets/Screenshot/gif-screenshot.gif" width = "60%" >
