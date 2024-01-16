@@ -1,6 +1,7 @@
 body {
   font-family: Arial;
   font-size: 120%;
+  background-color: rgb(184, 231, 255);
 }
 
 a {
@@ -10,24 +11,34 @@ a {
 }
 
 a:hover {
-  color: #8570a5;
+  color: #852e20;
 }
+
+
+.choices.correct button {
+  background-color: rgb(13, 126, 13);
+}
+
+.choices.wrong button {
+  background-color: rgb(189, 16, 16);
+}
+
 
 button {
   display: inline-block;
-  margin: 5px;
+  margin: 0.5rem;
   cursor: pointer;
   font-size: 100%;
-  background-color: #563d7c;
+  background-color: #0a3670;
   border-radius: 5px;
-  padding: 2px 10px;
+  padding: 0.8rem 1rem;
   color: white;
   border: 0;
   transition: background-color 0.1s;
 }
 
 button:hover {
-  background-color: #8570a5;
+  background-color: #428def;
 }
 
 .choices button {
@@ -47,15 +58,16 @@ ol {
 li {
   padding: 5px;
   list-style: decimal inside none;
+  background-color: rgb(249, 255, 255);
 }
 
 li:nth-child(odd) {
-  background-color: #f3edfc;
+  background-color: #d6fcff;
 }
 
 .wrapper {
-  margin: 100px auto 0 auto;
-  max-width: 600px;
+  margin: 6.25rem auto 0 auto;
+  max-width: 37.5rem;
 }
 
 .hide {
@@ -68,21 +80,34 @@ li:nth-child(odd) {
 
 .scores {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 1.15rem;
+  left: 1.15rem;
+  font-size: 1.5rem;
 }
 
 .feedback {
   font-style: italic;
   font-size: 120%;
+  text-align: center;
   margin-top: 20px;
   padding-top: 10px;
-  color: gray;
+  color: rgb(0, 0, 0);
   border-top: 2px solid #ccc;
 }
 
 .timer {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 1.15rem;
+  right: 1.15rem;
+  font-size: 2rem;
+  color: rgb(202, 0, 0)
+}
+
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
